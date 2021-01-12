@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect, NavLink, Route } from 'react-router-dom';
 
-const Person = ({ person})=> {
+const FaceTile = ({ person})=> {
   // function handleClick() {
   //   return (<Redirect to={`/persons/${person}`}></Redirect>)
   // }
@@ -20,4 +20,4 @@ const Person = ({ person})=> {
 };
 
 
-export default Person;
+export default FaceTile;

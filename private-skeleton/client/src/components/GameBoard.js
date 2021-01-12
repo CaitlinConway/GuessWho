@@ -1,5 +1,5 @@
 import React from "react";
-import Person from "./FaceTile.js";
+import FaceTile from "./FaceTile.js";
 
 const PersonFeed = (person) => {
   return (
@@ -9,7 +9,7 @@ const PersonFeed = (person) => {
         <ul id="personFeed">
           {person.person.map((person) => (
             <li key={person} id={'person-li'}>
-              <Person person={person}></Person>
+              <FaceTile person={person}></FaceTile>
             </li>
           ))}
         </ul>
