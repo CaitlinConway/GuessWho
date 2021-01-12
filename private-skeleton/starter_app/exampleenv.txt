@@ -1,0 +1,9 @@
+FLASK_APP=starter_app
+FLASK_ENV=development
+SECRET_KEY=123
+DATABASE_URL=postgresql://database_user:password@localhost/databse_name
+BUCKET_URL=https://bucket-name.s3.amazonaws.com
+BUCKET_NAME=bucket-name
+ACCESS_ID=AKIAxxxx1654BFF5EEF4
+ACCESS_KEY=23x1x23x133x21KOCgXn+x13x21x3
+REGION_NAME=us-east-1
