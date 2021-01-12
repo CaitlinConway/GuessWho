@@ -1,2 +1,1 @@
-
-This is the readme on your github
+An online Guess Who? game utilizing web sockets
