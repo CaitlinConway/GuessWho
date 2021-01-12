@@ -7,13 +7,13 @@ const FaceTile = ({ person})=> {
   // }
   return (
     <>
-      <div id={'person-links'}>
-        <NavLink id={'person-name'} to={`/persons/${person}`}>{person}
-        </NavLink>
-        {/* <NavLink to={{
-          pathname:`/persons/${person}`,
-          aboutProps: {games:games}
-        }}>{person}</NavLink> */}
+      <div id={'face-tile'}>
+        <div className={'face-pic'}>
+          {person.pic}
+        </div>
+        <div className={'face-name'}>
+          {person.name}
+        </div>
       </div>
     </>
   )

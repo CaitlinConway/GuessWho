@@ -8,7 +8,7 @@ const PersonFeed = (person) => {
         <h1 className='personFeed-title'>Guess Who?</h1>
         <ul id="personFeed">
           {person.person.map((person) => (
-            <li key={person} id={'person-li'}>
+            <li key={person.name} className={'facetile-li'}>
               <FaceTile person={person}></FaceTile>
             </li>
           ))}
