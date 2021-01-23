@@ -1,14 +1,14 @@
 import React from "react";
 import FaceTile from "./FaceTile.js";
 
-const PersonFeed = (person) => {
+const GameBoard = (people) => {
   return (
     <>
       <div id="personFeed-div">
         <h1 className='personFeed-title'>Guess Who?</h1>
         <ul id="personFeed">
-          {person.person.map((person) => (
-            <li key={person.name} className={'facetile-li'}>
+          {people.people.map((person) => (
+            <li key={person} className={'facetile-li'}>
               <FaceTile person={person}></FaceTile>
             </li>
           ))}
@@ -19,4 +19,4 @@ const PersonFeed = (person) => {
 };
 
 
-export default PersonFeed;
+export default GameBoard;

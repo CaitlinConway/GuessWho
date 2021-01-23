@@ -12,7 +12,7 @@ const FaceTile = ({ person})=> {
           {person.pic}
         </div>
         <div className={'face-name'}>
-          {person.name}
+          {person}
         </div>
       </div>
     </>
