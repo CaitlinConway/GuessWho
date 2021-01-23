@@ -5,6 +5,16 @@
     font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
-.gameboard{
+#gameboard{
+  list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
 
+}
+#gameboard-div{
+  max-height: 500px;
+}
+.face-pic{
+  width: 200px;
+  height: 200px;
 }
