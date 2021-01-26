@@ -1,1 +1,1 @@
-An online Guess Who? game utilizing web sockets
+An online Guess Who? game
