@@ -12,6 +12,7 @@ RUN ["pip", "install", "-r", "requirements.txt"]
 
 RUN ["cp", "-r", "app/static/static/js", "app/static"]
 RUN ["cp", "-r", "app/static/static/css", "app/static"]
+RUN ["cp", "-r", "app/static/static/media", "app/static"]
 
 # Setup Flask environment
 
