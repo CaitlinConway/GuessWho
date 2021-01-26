@@ -1,11 +1,16 @@
 import React from "react";
 import { Redirect, NavLink, Route } from 'react-router-dom';
 
-const FaceTile = ({ person})=> {
+const FaceTile = ({ person, reset})=> {
   const [showX, setShowX] = React.useState(false);
   const handleClick = (e) => {
     e.preventDefault();
+    if (!showX){
     setShowX(true);
+    }
+    else {
+      setShowX(false)
+    }
   }
   let pic = require(`../images/${person}.PNG`);
   let x_pic = require('../images/X.png');
