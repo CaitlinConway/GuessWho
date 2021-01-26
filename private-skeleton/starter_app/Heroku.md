@@ -11,7 +11,7 @@
   pipenv install sqlalchemy
   pipenv install flask-login
   pipenv install flask-migrate
-  
+
 3. Create your DB user and DB
 psql -c "CREATE USER capstone_user WITH PASSWORD 'password' CREATEDB"
 psql -c "CREATE DATABASE capstone_database WITH OWNER capstone_user"
