@@ -17,4 +17,10 @@
 .face-pic{
   width: 200px;
   height: 200px;
+  padding: 2px;
+}
+.gameboard-title{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
