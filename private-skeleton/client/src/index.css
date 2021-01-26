@@ -16,11 +16,20 @@
 }
 .face-pic{
   width: 200px;
-  height: 200px;
+  height: 270px;
   padding: 2px;
 }
 .gameboard-title{
   display: flex;
   justify-content: center;
   padding: 5px;
+}
+.x{
+  position: relative;
+  top: -170px;
+  left: 70px;
+}
+.face-tile{
+  max-width: 200px;
+  max-height: 270px;
 }
