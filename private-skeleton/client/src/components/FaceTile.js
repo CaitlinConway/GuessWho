@@ -21,6 +21,7 @@ const FaceTile = ({ person, reset})=> {
     <>
       <div className={'face-tile'} onClick={handleClick}>
         <img className={'face-pic'} src={pic} width = '100' height='100px'/>
+        {showX && reset ? (reset = false, setShowX(false)): null};
         {showX ? X_picture:null}
       </div>
     </>
